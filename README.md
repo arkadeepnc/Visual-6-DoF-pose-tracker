@@ -3,9 +3,9 @@ This is a repository on top of the DodecaPen base code.
 This code is in Python 2.7 but we would like to have the option to port it to Python 3.5 or higher. 
 For now please write python3 compatible code by adding the folowing lines on top:
 
-> from __future__ import division
+> '''from __future__ import division'''
 
-> from __future__ import print_function
+> '''from __future__ import print_function'''
 
 However, do not run the code in python3 as you may have some problems woth ROS OpenCV distro.
 
@@ -16,7 +16,7 @@ Currently there is a dev branch. If you are adding new features, please commit t
 
 You can start with :
 
-> git clone https://github.com/arkadeepnc/Visual-6-DoF-pose-tracker.git
+> '''git clone https://github.com/arkadeepnc/Visual-6-DoF-pose-tracker.git'''
 
 # REQUIREMENTS
 
@@ -29,14 +29,14 @@ Read the Docs here: http://wiki.ros.org/pointgrey_camera_driver
 
 Install prebuilt bins from source :
 
-> sudo apt-get install ros-kinetic-pointgrey-camera-driver
+> '''sudo apt-get install ros-kinetic-pointgrey-camera-driver'''
 
 Connect camera to USB 3.1 (blue port). USB 2 would not work!! Start camera with : 
 
-> roslaunch pointgrey_camera_driver camera.launch
+> '''roslaunch pointgrey_camera_driver camera.launch'''
 
 Check feed 
-> rostopic echo /camera/image_color 
+> '''rostopic echo /camera/image_color '''
 
 should show a bunch of numbers in the screen within seconds after hitting return! Or else rostopic is dead. 
 
@@ -61,7 +61,7 @@ snakeviz -- for profiling your code
 # Get started
 Begin by running 
 
-> python video_drawing_with_Dodeca.py 
+> '''python video_drawing_with_Dodeca.py '''
 
 This will go through a video of the pen tip moving on a plane and generate the point cloud for the tip of the pen.
 
