@@ -9,7 +9,7 @@ However, do not run the code in python3 as you may have some problems woth ROS O
 # Branch Convention
 Please do not commit to master. The master should have fully working codes at all times.
 Currently there is a dev branch. If you are adding new features, please commit them to the dev branch and raise pull requests to master. Also, before placing a pull request, please make sure your code is "merge-able" GitHub will let you know if there are issues.
-
+You can start with $ git clone https://github.com/arkadeepnc/Visual-6-DoF-pose-tracker.git
 # REQUIREMENTS
 UBUNTU 16.04 LTS [ not sure if it works with virtual Linux machine in Windows ]
 ROS KINETIC
@@ -33,12 +33,19 @@ should show a bunch of numbers in the screen within seconds after hitting return
 [all are basic and should be there if your Ubuntu-ROS do not hate each other]
 
 numpy (latest)
+
 OpenCV contrib (test it as with the following in the terminal: >python -> >import  cv2 -> >from cv2 import aruco)
+
 rospy
+
 matplotlib
+
 transforms3d (pip install transforms3d)
+
 scipy (check pypi for latest distro)
+
 snakeviz -- for profiling your code
+
 
 # Get started
 Begin by running 
