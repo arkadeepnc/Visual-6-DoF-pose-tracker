@@ -14,9 +14,10 @@ Please do not commit to master. The master should have fully working codes at al
 
 Currently there is a dev branch. If you are adding new features, please commit them to the dev branch and raise pull requests to master. Also, before placing a pull request, please make sure your code is "merge-able" GitHub will let you know if there are issues.
 
-You can start with :
+You can start by cloning the dev branch with :
 
-> '''git clone https://github.com/arkadeepnc/Visual-6-DoF-pose-tracker.git'''
+> '''git clone -b dev https://github.com/arkadeepnc/Visual-6-DoF-pose-tracker.git'''
+
 
 # REQUIREMENTS
 
