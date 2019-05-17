@@ -2,8 +2,11 @@
 This is a repository on top of the DodecaPen base code.
 This code is in Python 2.7 but we would like to have the option to port it to Python 3.5 or higher. 
 For now please write python3 compatible code by adding the folowing lines on top:
+
 > from __future__ import division
+
 > from __future__ import print_function
+
 However, do not run the code in python3 as you may have some problems woth ROS OpenCV distro.
 
 # Branch Convention
