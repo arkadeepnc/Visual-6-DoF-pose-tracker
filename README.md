@@ -72,5 +72,7 @@ Begin by running
 
 This will go through a video of the pen tip moving on a plane and generate the point cloud for the tip of the pen.
 
+If you want to convert the code to C++ this might be a good starting point
 
+https://github.com/neconeconeco/PressPen --> https://github.com/neconeconeco/PressPen/tree/master/Pen%20Tracking%20Algorithm
 
