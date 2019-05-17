@@ -9,6 +9,12 @@ For now please write python3 compatible code by adding the folowing lines on top
 
 However, do not run the code in python3 as you may have some problems woth ROS OpenCV distro.
 
+DodecaPen is based of Po-Chen Wu's thesis work. This is an implematation of the paper __DodecaPen: Accurate 6DoF Tracking of a Passive Stylus__
+
+Po-Chen's papers, thesis is quite helpful for understanding the theory behind the code. 
+
+This is the website: http://media.ee.ntu.edu.tw/personal/pcwu/ . His thesis can be downloaded from here.
+
 # Branch Convention
 Please do not commit to master. The master should have fully working codes at all times.
 
