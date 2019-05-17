@@ -1,0 +1,9 @@
+
+1. Link for drawing with given units :
+
+https://www.mathworks.com/matlabcentral/answers/97397-how-do-i-print-a-figure-such-that-the-printout-has-the-true-scale-of-my-axes-units
+
+
+2. Radius of circumcircle of a n sided polygon:
+r = s/(2*sin(pi/n))
+
