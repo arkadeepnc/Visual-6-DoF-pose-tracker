@@ -25,7 +25,8 @@ $ rostopic echo /camera/image_color
 
 should show a bunch of numbers in the screen within seconds after hitting return! Or else rostopic is dead. 
 
-Library dependencies:  [all are basic and should be there if your Ubuntu-ROS do not hate each other]
+# Library dependencies:  
+[all are basic and should be there if your Ubuntu-ROS do not hate each other]
 
 numpy (latest)
 OpenCV contrib (test it as with the following in the terminal: >python -> >import  cv2 -> >from cv2 import aruco)
