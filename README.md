@@ -11,12 +11,20 @@ However, do not run the code in python3 as you may have some problems woth ROS O
 
 # Branch Convention
 Please do not commit to master. The master should have fully working codes at all times.
+
 Currently there is a dev branch. If you are adding new features, please commit them to the dev branch and raise pull requests to master. Also, before placing a pull request, please make sure your code is "merge-able" GitHub will let you know if there are issues.
-You can start with $ git clone https://github.com/arkadeepnc/Visual-6-DoF-pose-tracker.git
+
+You can start with :
+
+> git clone https://github.com/arkadeepnc/Visual-6-DoF-pose-tracker.git
+
 # REQUIREMENTS
+
 UBUNTU 16.04 LTS [ not sure if it works with virtual Linux machine in Windows ]
 ROS KINETIC
+
 ros point_grey_camera_driver 
+
 Read the Docs here: http://wiki.ros.org/pointgrey_camera_driver
 
 Install prebuilt bins from source :
@@ -52,6 +60,7 @@ snakeviz -- for profiling your code
 
 # Get started
 Begin by running 
+
 > python video_drawing_with_Dodeca.py 
 
 This will go through a video of the pen tip moving on a plane and generate the point cloud for the tip of the pen.
