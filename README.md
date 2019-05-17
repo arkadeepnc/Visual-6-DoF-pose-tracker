@@ -6,6 +6,10 @@ from __future__ import division
 from __future__ import print_function
 However, do not run the code in python3 as you may have some problems woth ROS OpenCV distro.
 
+# Branch Convention
+Please do not commit to master. The master should have fully working codes at all times.
+Currently there is a dev branch. If you are adding new features, please commit them to the dev branch and raise pull requests to master. Also, before placing a pull request, please make sure your code is "merge-able" GitHub will let you know if there are issues.
+
 # REQUIREMENTS
 UBUNTU 16.04 LTS [ not sure if it works with virtual Linux machine in Windows ]
 ROS KINETIC
@@ -36,8 +40,11 @@ transforms3d (pip install transforms3d)
 scipy (check pypi for latest distro)
 snakeviz -- for profiling your code
 
+# Begin
+Begin by running 
+$ python video_drawing_with_Dodeca.py 
 
-
+This will go through a video of the pen tip moving on a plane and generate the point cloud for the tip of the pen.
 
 
 
