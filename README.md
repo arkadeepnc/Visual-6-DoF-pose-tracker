@@ -40,7 +40,7 @@ transforms3d (pip install transforms3d)
 scipy (check pypi for latest distro)
 snakeviz -- for profiling your code
 
-# Begin
+# Get started
 Begin by running 
 $ python video_drawing_with_Dodeca.py 
 
