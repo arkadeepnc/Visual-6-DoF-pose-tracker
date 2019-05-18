@@ -28,6 +28,7 @@ You can start by cloning the dev branch with :
 # REQUIREMENTS
 
 UBUNTU 16.04 LTS [ not sure if it works with virtual Linux machine in Windows ]
+
 ROS KINETIC
 
 ros point_grey_camera_driver 
