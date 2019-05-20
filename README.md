@@ -67,7 +67,7 @@ snakeviz -- for profiling your code
 
 
 # Get started
-Open terminal in /src .Begin by running 
+Open terminal in /src . Begin by running :
 
 ```python video_drawing_with_Dodeca.py ```
 
