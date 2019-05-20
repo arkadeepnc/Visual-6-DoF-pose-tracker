@@ -18,7 +18,7 @@ import rospy
 from roscam import RosCam
 from matplotlib.path import Path
 
-# changing stuff from demo on monday!!
+# changing stuff from demo on monday!! this is not needed anymore!!
 
 def main():
 	plot_switch = 1
