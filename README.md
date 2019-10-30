@@ -1,3 +1,6 @@
+# Note
+This repository is not maintained now. For updates see https://github.com/biorobotics/cmu-dodecapen
+
 # Visual-6-DoF-pose-tracker
 This is a repository on top of the DodecaPen base code.
 This code is in Python 2.7 but we would like to have the option to port it to Python 3.5 or higher. 
